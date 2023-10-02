@@ -1,0 +1,19 @@
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+#audioText {
+    margin-top: 20px;
+    font-size: 18px;
+}
